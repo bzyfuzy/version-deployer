@@ -11,7 +11,6 @@ import (
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-	_ "modernc.org/sqlite"
 )
 
 // IISSite represents each IIS site
@@ -73,7 +72,7 @@ func ParseLMS(path string) ([]IISSite, error) {
 }
 
 func main() {
-	path := "sites_103.json" // your JSON file
+	path := "sites_145.json" // your JSON file
 	sites, err := ParseLMS(path)
 	if err != nil {
 		panic(err)
@@ -88,8 +87,7 @@ func main() {
 			Status: s.State,
 		})
 	}
-	db, err := gorm.Open(sqlite.Open("file:lms.db?cache=shared&_fk=1"), &gorm.Config{})
-	// db, err := gorm.Open(sqlite.Open("lms.db"), &gorm.Config{})
+	db, err := gorm.Open(sqlite.Open("145.db"), &gorm.Config{})
 	if err != nil {
 		log.Fatal(err)
 	}
