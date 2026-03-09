@@ -1,0 +1,1177 @@
+[
+  {
+    "name": "Default Web Site",
+    "state": "Started",
+    "physicalPath": "%SystemDrive%\\inetpub\\wwwroot",
+    "Bindings": {
+      "value": ["*:80:", "808:*", "localhost", "localhost", "*"],
+      "Count": 5
+    }
+  },
+  {
+    "name": "integration.ecm.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\integration_backend",
+    "Bindings": {
+      "value": ["172.16.1.79:8090:", "*:443:integration.ecm.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub134.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub134.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub134.nuudelms.mn", "*:443:ub134.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub25.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub25.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub25.nuudelms.mn", "*:443:ub25.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub88.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub88.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub88.nuudelms.mn", "*:443:ub88.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub104.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub104.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub104.nuudelms.mn", "*:443:ub104.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub70.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub70.nuudelms.mn",
+    "Bindings": "*:443:ub70.nuudelms.mn"
+  },
+  {
+    "name": "newcentury.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\newcentury.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:newcentury.nuudelms.mn", "*:80:newcentury.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ott.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\Skuul\\ott.mn",
+    "Bindings": { "value": ["*:80:ott.mn", "*:443:ott.mn"], "Count": 2 }
+  },
+  {
+    "name": "ubkhogjil.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ubkhogjil.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ubkhogjil.nuudelms.mn", "*:80:ubkhogjil.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "test-backend.ott.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\Skuul\\backend\\eyeshstu",
+    "Bindings": "*:443:backend.skuul.mn"
+  },
+  {
+    "name": "nandingorkhi.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\nandingorkhi.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:nandingorkhi.nuudelms.mn",
+        "*:80:nandingorkhi.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "oyut.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\oyut.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:oyut.nuudelms.mn", "*:80:oyut.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "olonlog.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\olonlog.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:olonlog.nuudelms.mn", "*:80:olonlog.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "nipe.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\nipe.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:nipe.nuudelms.mn", "*:80:nipe.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "tegsh-ukhaan.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\tegsh-ukhaan.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:tegsh-ukhaan.nuudelms.mn",
+        "*:80:tegsh-ukhaan.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "olonlog-center.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\olonlog-center.nuudelms.mn",
+    "Bindings": "*:443:olonlog-center.nuudelms.mn"
+  },
+  {
+    "name": "ub132.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub132.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub132.nuudelms.mn", "*:80:ub132.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "uia.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\uia.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:uia.nuudelms.mn", "*:80:uia.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "conservatory.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\conservatory.nuudelms.mn",
+    "Bindings": "*:443:conservatory.nuudelms.mn"
+  },
+  {
+    "name": "ub13.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub13.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub13.nuudelms.mn", "*:80:ub13.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub172.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub172.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub172.nuudelms.mn", "*:80:ub172.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "mongol-business.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\mongol-business.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:mongol-business.nuudelms.mn",
+        "*:80:mongol-business.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "huuruhtavtsan.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\huuruhtavtsan.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:huuruhtavtsan.nuudelms.mn",
+        "*:80:huuruhtavtsan.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "logarithm.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\logarithm.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:logarithm.nuudelms.mn", "*:80:logarithm.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "nomundalai.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\nomundalai.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:nomundalai.nuudelms.mn", "*:80:nomundalai.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "elbeg.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\elbeg.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:elbeg.nuudelms.mn", "*:80:elbeg.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ubempathy.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ubempathy.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ubempathy.nuudelms.mn", "*:80:ubempathy.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "erdemtugs.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\erdemtugs.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:erdemtugs.nuudelms.mn", "*:80:erdemtugs.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ekhlel.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ekhlel.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ekhlel.nuudelms.mn", "*:80:ekhlel.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "students-api.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\IkhNuudelStudents_Mobile\\ikhnuudelstudent",
+    "Bindings": "*:443:students-api.nuudelms.mn"
+  },
+  {
+    "name": "teacher.skuul.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\Skuul\\skuul.mn",
+    "Bindings": {
+      "value": ["*:80:teacher.skuul.mn", "*:443:teacher.skuul.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "test.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\test.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:test.nuudelms.mn", "*:80:test.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "learning.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\learning.nuudelms.mn",
+    "Bindings": "*:443:learning.nuudelms.mn"
+  },
+  {
+    "name": "multicon.nuudelms.mn",
+    "state": "Stopped",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\PublishSite",
+    "Bindings": {
+      "value": [
+        "*:443:ub104.nuudelms.mn",
+        "*:443:ubkhogjil.nuudelms.mn",
+        "*:443:ub70.nuudelms.mn"
+      ],
+      "Count": 3
+    }
+  },
+  {
+    "name": "ub40.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub40.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub40.nuudelms.mn", "*:80:ub40.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub142.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub142.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub142.nuudelms.mn", "*:80:ub142.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub-sport.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub-sport.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub-sport.nuudelms.mn", "*:80:ub-sport.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub169.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub169.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub169.nuudelms.mn", "*:443:ub169.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub168.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub168.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub168.nuudelms.mn", "*:80:ub168.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub162.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub162.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub162.nuudelms.mn", "*:80:ub162.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub119.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub119.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub119.nuudelms.mn", "*:80:ub119.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub161.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub161.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub161.nuudelms.mn", "*:80:ub161.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub118.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub118.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub118.nuudelms.mn", "*:80:ub118.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub158.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub158.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub158.nuudelms.mn", "*:443:ub158.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub151.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub151.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub151.nuudelms.mn", "*:80:ub151.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub109.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub109.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub109.nuudelms.mn", "*:80:ub109.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub146.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub146.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub146.nuudelms.mn", "*:80:ub146.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub107.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub107.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub107.nuudelms.mn", "*:443:ub107.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub145.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub145.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub145.nuudelms.mn", "*:80:ub145.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub106.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub106.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub106.nuudelms.mn", "*:80:ub106.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub138.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub138.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub138.nuudelms.mn", "*:80:ub138.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub105.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub105.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub105.nuudelms.mn", "*:80:ub105.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub135.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub135.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub135.nuudelms.mn", "*:80:ub135.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub103.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub103.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub103.nuudelms.mn", "*:80:ub103.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub129.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub129.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub129.nuudelms.mn", "*:80:ub129.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub102.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub102.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub102.nuudelms.mn", "*:80:ub102.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub126.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub126.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub126.nuudelms.mn", "*:80:ub126.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub97.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub97.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub97.nuudelms.mn", "*:80:ub97.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub124.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub124.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub124.nuudelms.mn", "*:80:ub124.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub87.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub87.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub87.nuudelms.mn", "*:80:ub87.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub123.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub123.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub123.nuudelms.mn", "*:80:ub123.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub71.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub71.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub71.nuudelms.mn", "*:80:ub71.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub122.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub122.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub122.nuudelms.mn", "*:443:ub122.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub121.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub121.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub121.nuudelms.mn", "*:80:ub121.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub67.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub67.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub67.nuudelms.mn", "*:80:ub67.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub55.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub55.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub55.nuudelms.mn", "*:80:ub55.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub53.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub53.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub53.nuudelms.mn", "*:80:ub53.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub47.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub47.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub47.nuudelms.mn", "*:80:ub47.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub41.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub41.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub41.nuudelms.mn", "*:80:ub41.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub37.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub37.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub37.nuudelms.mn", "*:80:ub37.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub120.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub120.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub120.nuudelms.mn", "*:80:ub120.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub33.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub33.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub33.nuudelms.mn", "*:80:ub33.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub28.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub28.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub28.nuudelms.mn", "*:80:ub28.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub16.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub16.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub16.nuudelms.mn", "*:80:ub16.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub14.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub14.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub14.nuudelms.mn", "*:80:ub14.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub12.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub12.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub12.nuudelms.mn", "*:80:ub12.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub5.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub5.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub5.nuudelms.mn", "*:80:ub5.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "mongol-od.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\mongol-od.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:mongol-od.nuudelms.mn", "*:80:mongol-od.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ireedui.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ireedui.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ireedui.nuudelms.mn", "*:80:ireedui.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "golomt.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\golomt.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:golomt.nuudelms.mn", "*:80:golomt.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "erdmyn-orgil.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\erdmyn-orgil.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:erdmyn-orgil.nuudelms.mn",
+        "*:80:erdmyn-orgil.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "erdmiin-khotoch.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\erdmiin-khotoch.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:erdmiin-khotoch.nuudelms.mn",
+        "*:80:erdmiin-khotoch.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "baynzurkh.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\baynzurkh.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:baynzurkh.nuudelms.mn", "*:80:baynzurkh.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan1.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan1.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan1.nuudelms.mn", "*:80:darkhan1.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan4.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan4.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan4.nuudelms.mn", "*:80:darkhan4.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan8.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan8.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan8.nuudelms.mn", "*:80:darkhan8.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan9.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan9.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan9.nuudelms.mn", "*:80:darkhan9.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan11.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan11.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan11.nuudelms.mn", "*:80:darkhan11.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan12.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan12.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan12.nuudelms.mn", "*:80:darkhan12.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan14.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan14.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan14.nuudelms.mn", "*:80:darkhan14.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan15.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan15.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan15.nuudelms.mn", "*:80:darkhan15.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan16.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan16.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan16.nuudelms.mn", "*:80:darkhan16.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan18.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan18.nuudelms.mn",
+    "Bindings": "*:443:darkhan18.nuudelms.mn"
+  },
+  {
+    "name": "darkhan22.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan22.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan22.nuudelms.mn", "*:80:darkhan22.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan24.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan24.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan24.nuudelms.mn", "*:80:darkhan24.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan30.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan30.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:darkhan30.nuudelms.mn", "*:443:darkhan30.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan31.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan31.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:darkhan31.nuudelms.mn", "*:80:darkhan31.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan-muls.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan-muls.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:darkhan-muls.nuudelms.mn",
+        "*:80:darkhan-muls.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan-sharyngol6.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan-sharyngol6.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:darkhan-sharyngol6.nuudelms.mn",
+        "*:80:darkhan-sharyngol6.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "darkhan-shutis.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\darkhan-shutis.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:darkhan-shutis.nuudelms.mn",
+        "*:80:darkhan-shutis.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "enerel.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\enerel.nuudelms.mn",
+    "Bindings": "*:443:enerel.nuudelms.mn"
+  },
+  {
+    "name": "od.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\od.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:od.nuudelms.mn", "*:80:od.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "oyuny-ireedvi.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\oyuny-ireedvi.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:443:oyuny-ireedvi.nuudelms.mn",
+        "*:80:oyuny-ireedvi.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "sharyngol2.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\darkhan\\sharyngol2.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:sharyngol2.nuudelms.mn", "*:80:sharyngol2.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "iveekh-erdem.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\iveekh-erdem",
+    "Bindings": {
+      "value": [
+        "*:443:iveekh-erdem.nuudelms.mn",
+        "*:80:iveekh-erdem.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "erdmiin-urguu.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ikh_uberdmiin_urgoo",
+    "Bindings": {
+      "value": [
+        "*:443:erdmiin-urguu.nuudelms.mn",
+        "*:80:erdmiin-urguu.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub3.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub3.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub3.nuudelms.mn", "*:80:ub3.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "service1",
+    "state": "Started",
+    "physicalPath": "D:\\Services\\CheckApi",
+    "Bindings": "*:443:service.ecm.mn"
+  },
+  {
+    "name": "ub130.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\130.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub130.nuudelms.mn", "*:80:ub130.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub4.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub4.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub4.nuudelms.mn", "*:80:ub4.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub9.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub9.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub9.nuudelms.mn", "*:80:ub9.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "backend.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ikh_nuudel_backend",
+    "Bindings": {
+      "value": ["*:443:backend.nuudelms.mn", "*:80:backend.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "clickup.ecm.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\backup-darkhan1\\darkhan1.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:80:clickup.ecm.mn",
+        "172.16.1.79:8989:clickup.ecm.mn",
+        "*:443:clickup.ecm.mn"
+      ],
+      "Count": 3
+    }
+  },
+  {
+    "name": "FTP",
+    "state": "Started",
+    "physicalPath": "D:\\FTPShare",
+    "Bindings": "*:21:"
+  },
+  {
+    "name": "ub179.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub179.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub179.nuudelms.mn", "*:80:ub179.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "report.ecm.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\clickup_front\\front2\\click_up_ecm",
+    "Bindings": {
+      "value": ["*:80:report.ecm.mn", "*:443:report.ecm.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub112.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub112.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub112.nuudelms.mn", "*:80:ub112.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub185.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub185.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub185.nuudelms.mn", "*:80:ub185.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub182.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub182.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub182.nuudelms.mn", "*:80:ub182.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "backend-erp.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\erpikhnuudel\\backend1",
+    "Bindings": "*:443:backend-erp.nuudelms.mn"
+  },
+  {
+    "name": "ub.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ikh_nuudel_front\\ih_nuudel_front",
+    "Bindings": {
+      "value": ["*:443:ub.nuudelms.mn", "*:80:ub.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub183.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub183.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:443:ub183.nuudelms.mn", "*:80:ub183.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "erp.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\erp_new\\CmsNew-2025-12-03\\cms",
+    "Bindings": {
+      "value": ["*:80:erp.nuudelms.mn", "*:443:erp.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "ub72.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\ulaanbaatar\\ub72.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:ub72.nuudelms.mn", "*:443:ub72.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "skuul.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\examWeb\\version5\\Front-ecmexam",
+    "Bindings": { "value": ["*:80:skuul.mn", "*:443:skuul.mn"], "Count": 2 }
+  },
+  {
+    "name": "noatus.ecm.mn",
+    "state": "Started",
+    "physicalPath": "D:\\AccountingEbarimt\\MeterCenterApi\\MeterCenterApi",
+    "Bindings": "*:443:noatus.ecm.mn"
+  },
+  {
+    "name": "api-account.ecm.mn",
+    "state": "Started",
+    "physicalPath": "D:\\AccountingEbarimt\\MeterCenterApi\\MeterCenterApi",
+    "Bindings": {
+      "value": ["*:80:api-account.ecm.mn", "*:443:api-account.ecm.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "edureach",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\Skuul\\edureach",
+    "Bindings": "*:443:edureach.skuul.mn"
+  },
+  {
+    "name": "test.skuul.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\TestexamWeb\\Front-ecmexam",
+    "Bindings": {
+      "value": ["*:80:test.skuul.mn", "*:443:test.skuul.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "git.ecm.mn",
+    "state": "Started",
+    "physicalPath": "D:\\Projects\\git-server",
+    "Bindings": { "value": ["*:80:ecm.git.mn", "*:443:git.ecm.mn"], "Count": 2 }
+  }
+]

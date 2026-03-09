@@ -1,0 +1,305 @@
+[
+  {
+    "name": "Default Web Site",
+    "state": "Started",
+    "physicalPath": "%SystemDrive%\\inetpub\\wwwroot",
+    "Bindings": {
+      "value": ["*:80:", "808:*", "localhost", "localhost", "*"],
+      "Count": 5
+    }
+  },
+  {
+    "name": "govialtai.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\ikhnuudel\\EDUERP",
+    "Bindings": {
+      "value": ["*:80:govialtai.nuudelms.mn", "*:443:govialtai.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "govi-altai.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\ikhnuudel\\IKH_NUUDEL",
+    "Bindings": {
+      "value": ["*:80:govi-altai.nuudelms.mn", "*:443:govi-altai.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "altai.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\altai.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:altai.nuudelms.mn", "*:443:altai.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "bayan-uul.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\bayan-uul.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:bayan-uul.nuudelms.mn", "*:443:bayan-uul.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "biger.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\biger.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:biger.nuudelms.mn", "*:443:biger.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "bugat.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\bugat.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:bugat.nuudelms.mn", "*:443:bugat.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "dariv.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\dariv.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:dariv.nuudelms.mn", "*:443:dariv.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "delger.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\delger.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:delger.nuudelms.mn", "*:443:delger.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "guulin.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\guulin.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:guulin.nuudelms.mn", "*:443:guulin.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "jargalan.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\jargalan.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:jargalan.nuudelms.mn", "*:443:jargalan.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "taishir.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\taishir.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:taishir.nuudelms.mn", "*:443:taishir.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "tonkhil.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\tonkhil.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:tonkhil.nuudelms.mn", "*:443:tonkhil.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "altansoyombo.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\altansoyombo.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:80:altansoyombo.nuudelms.mn",
+        "*:443:altansoyombo.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "tugrug.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\tugrug.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:tugrug.nuudelms.mn", "*:443:tugrug.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "khaliun.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\khaliun.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:khaliun.nuudelms.mn", "*:443:khaliun.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "olonbulag.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\olonbulag.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:olonbulag.nuudelms.mn", "*:443:olonbulag.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "khukhmorit.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\khukhmorit.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:khukhmorit.nuudelms.mn", "*:443:khukhmorit.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "tsogt.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\tsogt.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:tsogt.nuudelms.mn", "*:443:tsogt.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "bayantooroi.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\bayantooroi.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:80:bayantooroi.nuudelms.mn",
+        "*:443:bayantooroi.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "tseel.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\tseel.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:tseel.nuudelms.mn", "*:443:tseel.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "gaa-chandmani.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\gaa-chandmani.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:80:gaa-chandmani.nuudelms.mn",
+        "*:443:gaa-chandmani.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "sharga.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\sharga.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:sharga.nuudelms.mn", "*:443:sharga.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "gаa-erdene.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\gаa-erdene.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:gaa-erdene.nuudelms.mn", "*:443:gaa-erdene.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "labo1.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\labo1.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:labo1.nuudelms.mn", "*:443:labo1.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "gaa2.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\gаa2.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:gaa2.nuudelms.mn", "*:443:gaa2.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "gaa3.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\gаa3.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:gaa3.nuudelms.mn", "*:443:gaa3.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "gaa4.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\gаa4.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:gaa4.nuudelms.mn", "*:443:gaa4.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "khantaishir.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\khantaishir.nuudelms.mn",
+    "Bindings": {
+      "value": [
+        "*:80:khantaishir.nuudelms.mn",
+        "*:443:khantaishir.nuudelms.mn"
+      ],
+      "Count": 2
+    }
+  },
+  {
+    "name": "takhi.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\takhi.nuudelms.mn",
+    "Bindings": {
+      "value": ["*:80:takhi.nuudelms.mn", "*:443:takhi.nuudelms.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "out.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\NuudelSchool\\out.nuudelms.mn\\out",
+    "Bindings": "*:80:ub.duudy.cc"
+  },
+  {
+    "name": "boom.nuudelms.mn",
+    "state": "Started",
+    "physicalPath": "E:\\Install\\Compare\\boommall\\bos_boom",
+    "Bindings": {
+      "value": ["*:80:boommall.mn", "*:80:www.boommall.mn"],
+      "Count": 2
+    }
+  },
+  {
+    "name": "eyesh.mn",
+    "state": "Started",
+    "physicalPath": "E:\\ikhnuudel\\eYesh\\eYesh\\eYesh\\EDUERP",
+    "Bindings": "*:80:eyesh.mn"
+  }
+]
